@@ -27,8 +27,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "vicky3")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "adrinolinks.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "1f847ab1bb48297153db0352c266f75b38716ad2")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "6c4949a47ab40b41f00c14ed325797b03a419f15")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/c/2115482280/1206")
